@@ -1,0 +1,8 @@
+Afin de gérer la réservation de matériel pour une école d'ingénieur, nous allons créer une base de données contenant trois tables principales qui sont les tables "etudiants", "materiel" et "reservation".
+
+Dans la table "etudiants", nous stockons le numéro étudiant en tant que clé primaire, le nom de l'étudiant, le prénom de l'étudiant ainsi que son adresse email.
+Dans la table "materiel", nous stockons l'identifiant du matériel en tant que clé primaire, le type du matériel, sa description ainsi que sa quantité disponible.
+Dans la table "reservation", nous stockons l'identifiant de la réservation en tant que clé primaire, la date de début de la réservation, sa date de fin, le numéro de l'étudiant ayant fait la réservation ainsi que l'identifiant du matériel qu'il a réservé.
+Ainsi, une réservation est liée à un utilisateur et un matériel.
+
+Lors de ce TP, j'ai accompagné Salma SAIFI, Clément ALLEGRE--COMMINGES et Lucien PETIT afin de les aider lors de différents exercices.

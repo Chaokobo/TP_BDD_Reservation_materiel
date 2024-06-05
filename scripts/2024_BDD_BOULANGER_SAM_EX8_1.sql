@@ -1,0 +1,1 @@
+CREATE TABLE disponibilite(idDisponibilite int AUTO_INCREMENT, idMateriel int NOT NULL, dateDebut varchar(50), dateFin varchar(50), PRIMARY KEY (idDisponibilite), FOREIGN KEY (idMateriel) REFERENCES materiel(idMateriel));
